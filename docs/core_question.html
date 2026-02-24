@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111111">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<title>Core question and claims</title>
+</head>
+<body>
+<header>
+  <div class="brand">UNLEARN</div>
+  <nav class="nav"><a href="index.html">Home</a>
+<a href="poster_overview.html">Overview</a>
+<a href="poster_guide.html">Poster guide</a>
+<a href="core_question.html">Core question</a>
+<a href="methods_summary.html">Methods</a>
+<a href="two_timescale_model.html">Two timescale model</a>
+<a href="parkinsons_wearables.html">Parkinson wearables</a>
+<a href="discussion_future_work.html">Discussion</a>
+<a href="glossary.html">Glossary</a>
+<a href="references.html">References</a>
+<a href="further_reading.html">Further reading</a></nav>
+</header>
+
+<main>
+  <article class="content">
+    <h1>Core question and claims</h1>
+
+<h2>Core question</h2>
+
+<p>If plasticity includes unlearning, and unlearning is rewiring rather than deletion, can we model and test it with formalisms that capture order effects.</p>
+
+<h2>What is meant by unlearning</h2>
+
+<p>Unlearning here means reduced expression of a previously learned mapping, coupled with the emergence of a new mapping.<br />
+It can arise from competition, inhibition, pruning, or context dependent retrieval.</p>
+
+<p>A short glossary is in docs/content/glossary.md</p>
+
+<h2>What is meant by order effects</h2>
+
+<p>An order effect means outcomes differ for A then C versus C then A even when the set of exposures is the same.</p>
+
+<p>Order effects are experimentally testable and can be used to compare model families.</p>
+
+<h2>Why quantum-like enters</h2>
+
+<p>Quantum-like models are useful when we want a compact mathematical language for contextual updates and order dependence.</p>
+
+<p>The formal move is to represent state with objects that support non commutative updates, so the composition of updates depends on order.</p>
+
+<p>This is a modelling choice, not a claim that the substrate is quantum coherent at macroscopic scales.</p>
+
+<h2>What should be compared</h2>
+
+<p>A useful comparison is between</p>
+
+<p>1  Classical probability vector updates such as Markov style models<br />
+2  Quantum-like open system updates such as density matrix evolution under completely positive maps<br />
+3  Hybrid families that interpolate between these regimes</p>
+
+<p>The goal is empirical: predict transitions, stability windows, and measurable behavioural outcomes.</p>
+
+<h2>What counts as success</h2>
+
+<p>A quantum-like model is useful if it improves prediction under controlled stress tests such as</p>
+
+<p>Perturbation<br />
+order manipulation<br />
+noise injection<br />
+missing data<br />
+domain shift across devices or cohorts</p>
+
+<p>A model is not useful if it adds parameters without improving robustness or interpretability.</p>
+
+  </article>
+</main>
+
+<footer>
+  <div class="foot">Poster companion text only</div>
+</footer>
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
+</script>
+</body>
+</html>
