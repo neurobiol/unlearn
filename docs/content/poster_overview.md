@@ -25,7 +25,8 @@ Conceptual implications and proposed validation steps:
 
 Quantum-like refers to the use of Hilbert-space–based probabilistic models to represent contextual and order-dependent state updates. It does not imply long-lived macroscopic quantum coherence in brain tissue.
 
-Definitions and conceptual grounding:
+### Definitions and conceptual grounding
+
 [Glossary](glossary.md)
 
 [Core question and claims](core_question.md)
