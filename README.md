@@ -22,6 +22,7 @@ A text companion to the poster.
 [Glossary](docs/content/glossary.md)
 
 [References](docs/content/references.md)
+
 [Further reading](docs/content/further_reading.md)
 
 ---
