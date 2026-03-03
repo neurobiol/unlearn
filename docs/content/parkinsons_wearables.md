@@ -38,4 +38,6 @@ wearable derived disease signatures
 
 ## Key references
 
-See docs/content/references.md for primary sources on mPower and smartphone based PD testing.
+See [References](docs/content/references.md) for primary sources on mPower and smartphone-based Parkinson’s disease testing.
+
+
