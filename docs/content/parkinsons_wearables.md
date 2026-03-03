@@ -38,6 +38,6 @@ The broader question is whether a single modeling language can connect
 
 ## Key references
 
-See [References](docs/content/references.md) for primary sources on mPower and smartphone-based Parkinson’s disease testing.
+See [References](references.md) for primary sources on mPower and smartphone-based Parkinson’s disease testing.
 
 
