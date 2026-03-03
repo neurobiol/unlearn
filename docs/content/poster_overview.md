@@ -1,37 +1,42 @@
 # Poster overview
 
-## The poster in one sentence
+Unlearning can be framed as structured network rewiring rather than simple deletion of stored information. Quantum-like models are explored here as a compact mathematical formalism to test order effects and contextual updates in neuroplasticity.
 
-Unlearning can be treated as structured network rewiring, and quantum-like models offer a compact way to test order effects in neuroplasticity.
+## Key Questions
 
-## What the poster asks
+1  Can wearable-derived movement features distinguish Parkinson’s from control cohorts?
 
-1  Do wearables distinguish Parkinson’s  
-docs/content/parkinsons_wearables.md
+2  Do individuals with similar movement signatures cluster together in feature space?
 
-2  Do people with similar movement patterns cluster together  
-docs/content/parkinsons_wearables.md
+Background and analysis details:
+[Parkinson wearables note](docs/content/parkinsons_wearables.md)
 
-3  Do gap peaks align with transitions and does a flat gap align with stability  
-docs/content/methods_summary.md
+3  Do spectral gap peaks align with transition points, and does a flattened gap correspond to relative network stability?
 
-4  If unlearning is rewiring not deletion, can we steer neuroplasticity to resist pathological drift  
-docs/content/discussion_future_work.md
+Modeling framework and gap analysis:
+[Methods summary](docs/content/methods_summary.md)
 
-## What quantum-like means here
+4  If unlearning reflects adaptive rewiring rather than erasure, can targeted interventions help steer neuroplasticity away from pathological drift?
 
-Quantum-like is used as a modelling formalism for contextual and order dependent updates.  
-It is not a claim of long lived macroscopic quantum coherence in brain tissue.
+Conceptual implications and proposed validation steps:
+[Discussion and next steps](docs/content/discussion_future_work.md)
 
-Details  
-docs/content/glossary.md  
-docs/content/core_question.md
+## What do we mean by "quantum-like"?
 
-## Where this is going
+Quantum-like refers to the use of Hilbert-space–based probabilistic models to represent contextual and order-dependent state updates. It does not imply long-lived macroscopic quantum coherence in brain tissue.
 
-Graph Hamiltonian Model of Plasticity: Two-timescale Quantum-like Unlearning. Manuscript in preparation.  
-docs/content/two_timescale_model.md
+Definitions and conceptual grounding:
+[Glossary](docs/content/glossary.md)
+[Core question and claims](docs/content/core_question.md)
+
+## Work in progress
+
+Graph Hamiltonian Model of Plasticity: Two-timescale Quantum-like Unlearning. Manuscript in preparation.
+
+Technical note:
+[Two-timescale model note](docs/content/two_timescale_model.md)
 
 ## Suggested citation line for the poster repository
 
-Goolam Hossen Y H, Gassab L, Craddock T J A. UNLEARN is plasticity quantum. Poster companion repository. 2026.
+Goolam Hossen Y H, Gassab L, Craddock T J A. UNLEARN: is plasticity quantum? Poster companion repository. 2026.
+
