@@ -36,7 +36,7 @@ self.addEventListener("fetch", (event) => {
     event.respondWith((async () => {
       try {
         const fresh = await fetch(req);
-        const cache = await caches.open(CACHE_NAME);
+        const cache = await caches.open(CACHE);
         cache.put(req, fresh.clone());
         return fresh;
       } catch (e) {
@@ -52,7 +52,7 @@ self.addEventListener("fetch", (event) => {
     const cached = await caches.match(req);
     if (cached) return cached;
     const fresh = await fetch(req);
-    const cache = await caches.open(CACHE_NAME);
+    const cache = await caches.open(CACHE);
     cache.put(req, fresh.clone());
     return fresh;
   })());
