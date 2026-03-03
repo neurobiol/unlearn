@@ -1,7 +1,3 @@
-This page still requires editing.
-
-option 1
-
 # How to read the visuals
 
 This poster is designed to be read at two levels: as data and as perception.
