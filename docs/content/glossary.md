@@ -19,7 +19,7 @@ Quantum
 physical theory with vector and operator based state descriptions
 
 Quantum-like  
-use of quantum mathematical structure as a modelling language without claiming macroscopic quantum coherence
+use of quantum mathematical structure as a modeling language without claiming macroscopic quantum coherence
 
 Open system  
 system interacting with an environment, producing noise and dissipation
