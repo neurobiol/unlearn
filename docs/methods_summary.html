@@ -12,82 +12,60 @@
 <body>
 <header>
   <div class="brand">UNLEARN</div>
-  <nav class="nav"><a href="index.html">Home</a>
-<a href="poster_overview.html">Overview</a>
-<a href="poster_guide.html">Poster guide</a>
-<a href="core_question.html">Core question</a>
-<a href="methods_summary.html">Methods</a>
-<a href="two_timescale_model.html">Two timescale model</a>
-<a href="parkinsons_wearables.html">Parkinson wearables</a>
-<a href="discussion_future_work.html">Discussion</a>
-<a href="glossary.html">Glossary</a>
-<a href="references.html">References</a>
-<a href="further_reading.html">Further reading</a></nav>
+  <nav class="nav">
+  <a href="index.html">Home</a>
+  <a href="poster_overview.html">Overview</a>
+  <a href="poster_guide.html">Poster guide</a>
+  <a href="core_question.html">Core question</a>
+  <a href="methods_summary.html">Methods</a>
+  <a href="two_timescale_model.html">Two timescale model</a>
+  <a href="parkinsons_wearables.html">Parkinson wearables</a>
+  <a href="discussion_future_work.html">Discussion</a>
+  <a href="glossary.html">Glossary</a>
+  <a href="references.html">References</a>
+  <a href="further_reading.html">Further reading</a>
+</nav>
 </header>
 
 <main>
   <article class="content">
-    <h1>Methods summary</h1>
-
-<p>This repository does not include figures. It explains how to read the poster plots at the level needed for a poster companion.</p>
-
-<h2>Wearable embedding and clustering</h2>
-
-<p>A typical pipeline is</p>
-
-<p>1  segment raw sensor streams into windows<br />
-2  extract features per window<br />
-3  build a representation that supports similarity comparisons<br />
-4  embed into two dimensions for visual inspection<br />
-5  quantify separation and clustering with held out evaluation</p>
-
-<p>The embedding axes themselves are not physically meaningful. Neighbourhood structure is the point.</p>
-
-<p>A short Parkinson wearables note is in docs/content/parkinsons_wearables.md</p>
-
-<h2>Similarity network panel</h2>
-
-<p>The dense network panel acts as a visual reminder that a system can be represented by relationships among states, features, or motifs.</p>
-
-<p>Similarity can be defined by correlation, cosine similarity, mutual information, distance metrics, or graph kernels. Different choices change what structure becomes visible.</p>
-
-<h2>Gap panel and interpretation</h2>
-
-<p>The poster states</p>
-
-<p>gap peaks signal transitions<br />
-a flat gap signals stability</p>
-
-<p>This is a high level spectral interpretation.</p>
-
-<p>A gap here means a difference between two spectral summary curves, labelled on the poster as gmax and gmin.</p>
-
-<p>If gmax rises while gmin stays near baseline, the gap widens and forms a peak. Peaks often align with switches between stages and can indicate a regime shift.</p>
-
-<p>If both curves become approximately stationary, the gap becomes flat and suggests a stable regime.</p>
-
-<h2>The staged protocol</h2>
-
-<p>Past exposure and initial learning<br />
-Rest and consolidation<br />
-New learning or unlearning<br />
-Rest<br />
-Reactivation of past learning</p>
-
-<p>The key idea is to align spectral changes with stage boundaries, then test whether those alignments replicate across seeds, subjects, or datasets.</p>
-
-<h2>What to report beyond the poster</h2>
-
-<p>To make the gap claim rigorous, a full report should specify</p>
-
-<p>the operator whose spectrum is used<br />
-how gmax and gmin are defined<br />
-how uncertainty is estimated<br />
-how peaks are detected<br />
-how stage alignment is quantified</p>
-
-<p>These details are best placed in a methods section of the manuscript.</p>
-
+    <h1 id="methods-summary">Methods summary</h1>
+    <p>This repository does not include figures. It explains how to read the poster plots at the level needed for a poster companion.</p>
+    <h2 id="wearable-embedding-and-clustering">Wearable embedding and clustering</h2>
+    <p>A typical pipeline is</p>
+    <p>1  segment raw sensor streams into windows<br>
+    2  extract features per window<br>
+    3  build a representation that supports similarity comparisons<br>
+    4  embed into two dimensions for visual inspection<br>
+    5  quantify separation and clustering with held out evaluation</p>
+    <p>The embedding axes themselves are not physically meaningful. Neighbourhood structure is the point.</p>
+    <p>A short Parkinson wearables note is in docs/content/parkinsons_wearables.md</p>
+    <h2 id="similarity-network-panel">Similarity network panel</h2>
+    <p>The dense network panel acts as a visual reminder that a system can be represented by relationships among states, features, or motifs.</p>
+    <p>Similarity can be defined by correlation, cosine similarity, mutual information, distance metrics, or graph kernels. Different choices change what structure becomes visible.</p>
+    <h2 id="gap-panel-and-interpretation">Gap panel and interpretation</h2>
+    <p>The poster states</p>
+    <p>gap peaks signal transitions<br>
+    a flat gap signals stability</p>
+    <p>This is a high level spectral interpretation.</p>
+    <p>A gap here means a difference between two spectral summary curves, labelled on the poster as gmax and gmin.</p>
+    <p>If gmax rises while gmin stays near baseline, the gap widens and forms a peak. Peaks often align with switches between stages and can indicate a regime shift.</p>
+    <p>If both curves become approximately stationary, the gap becomes flat and suggests a stable regime.</p>
+    <h2 id="the-staged-protocol">The staged protocol</h2>
+    <p>Past exposure and initial learning<br>
+    Rest and consolidation<br>
+    New learning or unlearning<br>
+    Rest<br>
+    Reactivation of past learning</p>
+    <p>The key idea is to align spectral changes with stage boundaries, then test whether those alignments replicate across seeds, subjects, or datasets.</p>
+    <h2 id="what-to-report-beyond-the-poster">What to report beyond the poster</h2>
+    <p>To make the gap claim rigorous, a full report should specify</p>
+    <p>the operator whose spectrum is used<br>
+    how gmax and gmin are defined<br>
+    how uncertainty is estimated<br>
+    how peaks are detected<br>
+    how stage alignment is quantified</p>
+    <p>These details are best placed in a methods section of the manuscript.</p>
   </article>
 </main>
 

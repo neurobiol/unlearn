@@ -12,63 +12,52 @@
 <body>
 <header>
   <div class="brand">UNLEARN</div>
-  <nav class="nav"><a href="index.html">Home</a>
-<a href="poster_overview.html">Overview</a>
-<a href="poster_guide.html">Poster guide</a>
-<a href="core_question.html">Core question</a>
-<a href="methods_summary.html">Methods</a>
-<a href="two_timescale_model.html">Two timescale model</a>
-<a href="parkinsons_wearables.html">Parkinson wearables</a>
-<a href="discussion_future_work.html">Discussion</a>
-<a href="glossary.html">Glossary</a>
-<a href="references.html">References</a>
-<a href="further_reading.html">Further reading</a></nav>
+  <nav class="nav">
+  <a href="index.html">Home</a>
+  <a href="poster_overview.html">Overview</a>
+  <a href="poster_guide.html">Poster guide</a>
+  <a href="core_question.html">Core question</a>
+  <a href="methods_summary.html">Methods</a>
+  <a href="two_timescale_model.html">Two timescale model</a>
+  <a href="parkinsons_wearables.html">Parkinson wearables</a>
+  <a href="discussion_future_work.html">Discussion</a>
+  <a href="glossary.html">Glossary</a>
+  <a href="references.html">References</a>
+  <a href="further_reading.html">Further reading</a>
+</nav>
 </header>
 
 <main>
   <article class="content">
-    <h1>Parkinson wearables note</h1>
-
-<h2>Poster question</h2>
-
-<p>Do wearables distinguish Parkinson’s<br />
-Do people with similar movement patterns cluster together</p>
-
-<h2>What the poster plot supports</h2>
-
-<p>A two dimensional embedding of wearable features can reveal clusters, overlap, and outliers.</p>
-
-<p>If Parkinson’s and control points show separation in some regions, those regions can be traced back to specific movement contexts or sensor channels.</p>
-
-<h2>What not to over interpret</h2>
-
-<p>Embedding axes have no direct physical meaning.<br />
-Separation in an embedding is not the same as clinically useful prediction.</p>
-
-<p>That is why downstream evaluation is needed.</p>
-
-<h2>Minimal evaluation checklist</h2>
-
-<p>1  define the task clearly, for example classification or progression scoring<br />
-2  avoid leakage between train and test splits<br />
-3  report calibration and uncertainty if probabilities are used<br />
-4  run ablations over feature sets and windowing choices<br />
-5  replicate across cohorts when possible</p>
-
-<h2>How this connects back to unlearning</h2>
-
-<p>If neuroplasticity supports compensation early in disease, then drift in wearable signatures might reflect a failure of compensatory rewiring.</p>
-
-<p>The broader question is whether a single modelling language can connect</p>
-
-<p>plasticity stage transitions<br />
-network diagnostics<br />
-wearable derived disease signatures</p>
-
-<h2>Key references</h2>
-
-<p>See docs/content/references.md for primary sources on mPower and smartphone based PD testing.</p>
-
+    <h1 id="parkinson-wearables-note">Parkinson wearables note</h1>
+    <h2 id="poster-question">Poster question</h2>
+    <p>Do wearables distinguish Parkinson’s?
+    Do people with similar movement patterns cluster together?</p>
+    <h2 id="what-the-poster-plot-supports">What the poster plot supports</h2>
+    <p>A two-dimensional embedding of wearable features can reveal clusters, overlap, and outliers.</p>
+    <p>If Parkinson’s and control points show separation in some regions, those regions can be traced back to specific movement contexts or sensor channels.</p>
+    <h2 id="avoid-over-interpretation">Avoid over-interpretation</h2>
+    <p>Embedding axes have no direct physical meaning.<br>
+    Separation in an embedding is not the same as clinically useful prediction.</p>
+    <p>That is why downstream evaluation is needed.</p>
+    <h2 id="minimal-evaluation-checklist">Minimal evaluation checklist</h2>
+    <ol>
+    <li>Define the task clearly, for example classification or progression scoring.  </li>
+    <li>Avoid leakage between train and test splits.  </li>
+    <li>Report calibration and uncertainty if probabilities are used.  </li>
+    <li>Run ablations over feature sets and windowing choices.  </li>
+    <li>Replicate across cohorts when possible.</li>
+    </ol>
+    <h2 id="how-this-connects-back-to-unlearning">How this connects back to unlearning</h2>
+    <p>If neuroplasticity supports compensation early in disease, then drift in wearable signatures might reflect a failure of compensatory rewiring.</p>
+    <p>The broader question is whether a single modeling language can connect</p>
+    <ul>
+    <li>plasticity stage transitions  </li>
+    <li>network diagnostics  </li>
+    <li>wearable derived disease signatures</li>
+    </ul>
+    <h2 id="key-references">Key references</h2>
+    <p>See <a href="references.html">References</a> for primary sources on mPower and smartphone-based Parkinson’s disease testing.</p>
   </article>
 </main>
 
