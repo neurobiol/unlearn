@@ -27,6 +27,7 @@ Quantum-like refers to the use of Hilbert-space–based probabilistic models to 
 
 Definitions and conceptual grounding:
 [Glossary](glossary.md)
+
 [Core question and claims](core_question.md)
 
 ## Work in progress
