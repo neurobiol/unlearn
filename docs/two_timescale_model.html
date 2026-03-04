@@ -140,72 +140,70 @@
     <p>So the spectral gap $\Delta=\lambda_1-\lambda_2$ shrinks as unlearning proceeds.</p>
     <h3 id="explanation">Explanation</h3>
     <ul>
-    <li>
-    <p>$W(t)\in\mathbb{R}^{n\times n}$
-      $W$ is a table of numbers that summarizes how strongly the model’s $n$ components influence each other.
+    <li>$W(t)\in\mathbb{R}^{n\times n}$</li>
+    </ul>
+    <p>$W$ is a table of numbers that summarizes how strongly the model’s $n$ components influence each other.
       The $(i,j)$ entry tells us how much component $i$ is coupled to component $j$.
       The $(t)$ means these couplings can change over time.</p>
-    </li>
-    <li>
-    <p>"symmetric"
-      Symmetric means $W_{ij}=W_{ji}$.
+    <ul>
+    <li>"symmetric"</li>
+    </ul>
+    <p>Symmetric means $W_{ij}=W_{ji}$.
       In plain terms, the influence of $i$ on $j$ is the same as the influence of $j$ on $i$.
       This is a common assumption when we want the modes to behave like clean vibration patterns.</p>
-    </li>
-    <li>
-    <p>$W=V\Lambda V^\top$
-      This is a standard way to rewrite $W$ as a set of independent modes.
+    <ul>
+    <li>$W=V\Lambda V^\top$</li>
+    </ul>
+    <p>This is a standard way to rewrite $W$ as a set of independent modes.
       $V$ collects the mode patterns as columns.
       $V^\top$ is the transpose, which turns rows into columns and vice versa.
       $\Lambda$ is a diagonal table that stores one strength number for each mode.</p>
-    </li>
-    <li>
-    <p>$\Lambda=\mathrm{diag}(\lambda_1\ \lambda_2\ \dots\ \lambda_n)$
-      "Diagonal" means only the entries on the diagonal are nonzero.
+    <ul>
+    <li>$\Lambda=\mathrm{diag}(\lambda_1\ \lambda_2\ \dots\ \lambda_n)$</li>
+    </ul>
+    <p>"Diagonal" means only the entries on the diagonal are nonzero.
       Each $\lambda_k$ is the strength of mode $k$.
       A larger $\lambda_k$ means that mode contributes more strongly to the system’s behavior.</p>
-    </li>
-    <li>
-    <p>$v_1$ is the dominant mode
-      $v_1$ is the pattern of the strongest mode.
+    <ul>
+    <li>$v_1$ is the dominant mode</li>
+    </ul>
+    <p>$v_1$ is the pattern of the strongest mode.
       It is the direction the system most naturally tends to follow, because its strength $\lambda_1$ is largest.</p>
-    </li>
-    <li>
-    <p>$\frac{dW}{dt}=-\eta v_1 v_1^\top$
-      $\frac{dW}{dt}$ means how the coupling matrix is changing in time.
+    <ul>
+    <li>$\frac{dW}{dt}=-\eta v_1 v_1^\top$</li>
+    </ul>
+    <p>$\frac{dW}{dt}$ means how the coupling matrix is changing in time.
       $v_1 v_1^\top$ builds a matrix that targets only the dominant pattern $v_1$.
       The minus sign means we are decreasing that targeted part rather than increasing it.
       $\eta&gt;0$ is the unlearning rate, which sets how fast this weakening happens.</p>
-    </li>
-    <li>
-    <p>Why $v_1 v_1^\top$ targets that mode
-      Multiplying a vector by its transpose creates a "directional filter".
+    <ul>
+    <li>Why $v_1 v_1^\top$ targets that mode</li>
+    </ul>
+    <p>Multiplying a vector by its transpose creates a "directional filter".
       It removes strength specifically along that pattern, and leaves other unrelated patterns mostly unchanged.</p>
-    </li>
-    <li>
-    <p>$\frac{d\lambda_1}{dt}=v_1^\top\frac{dW}{dt}v_1=-\eta$
-      This says the strength of the dominant mode decreases at a constant rate.
+    <ul>
+    <li>$\frac{d\lambda_1}{dt}=v_1^\top\frac{dW}{dt}v_1=-\eta$</li>
+    </ul>
+    <p>This means the strength of the dominant mode decreases at a constant rate.
       The middle expression is a standard way to measure how a matrix change affects a particular mode.
       The final result, $-\eta$, means unlearning steadily lowers $\lambda_1$.</p>
-    </li>
-    <li>
-    <p>$\frac{d\lambda_k}{dt}\approx 0 \qquad k\ne 1$
-      This means the other mode strengths change very little at first.
+    <ul>
+    <li>$\frac{d\lambda_k}{dt}\approx 0 \qquad k\ne 1$</li>
+    </ul>
+    <p>This means the other mode strengths change very little at first.
       The symbol $\approx$ means "approximately".
       So the update mostly affects the previously dominant mode, and not the rest.</p>
-    </li>
-    <li>
-    <p>$\Delta=\lambda_1-\lambda_2$ is the spectral gap
-      The gap compares the top mode strength to the second strongest mode.
+    <ul>
+    <li>$\Delta=\lambda_1-\lambda_2$ is the spectral gap</li>
+    </ul>
+    <p>The gap compares the top mode strength to the second strongest mode.
       If $\Delta$ is large, one mode strongly dominates.
       If $\Delta$ shrinks, the system becomes less dominated by one pattern and more ready to switch or share occupancy.</p>
-    </li>
-    <li>
-    <p>"The spectral gap decreases during unlearning."
-      Since $\lambda_1$ is pushed down and $\lambda_2$ stays almost the same, the difference $\lambda_1-\lambda_2$ gets smaller.
-      In plain terms, unlearning reduces the advantage of the old dominant pattern.</p>
-    </li>
+    <ul>
+    <li>"The spectral gap decreases during unlearning."</li>
     </ul>
+    <p>Since $\lambda_1$ is pushed down and $\lambda_2$ stays almost the same, the difference $\lambda_1-\lambda_2$ gets smaller.
+      In plain terms, unlearning reduces the advantage of the old dominant pattern.</p>
     <p>Citation:
     Goolam Hossen Y H, Gassab L, Craddock T J A. Graph Hamiltonian Model of Plasticity: Two-timescale Quantum-like Unlearning. Manuscript in preparation, 2026.</p>
   </article>
