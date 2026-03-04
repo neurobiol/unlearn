@@ -132,13 +132,13 @@ So the spectral gap $\Delta=\lambda_1-\lambda_2$ shrinks as unlearning proceeds.
 
 * $W(t)\in\mathbb{R}^{n\times n}$  
   $W$ is a table of numbers that summarizes how strongly the model’s $n$ components influence each other  
-  The $(i,j)$ entry tells you how much component $i$ is coupled to component $j$  
+  The $(i,j)$ entry tells us how much component $i$ is coupled to component $j$  
   The $(t)$ means these couplings can change over time
 
 * "symmetric"  
   Symmetric means $W_{ij}=W_{ji}$  
   In plain terms the influence of $i$ on $j$ is the same as the influence of $j$ on $i$  
-  This is a common assumption when you want the modes to behave like clean vibration patterns
+  This is a common assumption when we want the modes to behave like clean vibration patterns
 
 * $W=V\Lambda V^\top$  
   This is a standard way to rewrite $W$ as a set of independent modes  
