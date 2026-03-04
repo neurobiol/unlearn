@@ -1,4 +1,4 @@
-const CACHE = 'unlearn-v2026-03-04-1';
+const CACHE = 'unlearn-v2026-03-04-2';
 const CORE = [
   './index.html',
   './styles.css',
