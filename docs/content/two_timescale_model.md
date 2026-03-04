@@ -20,19 +20,7 @@ Treating the network as slowly varying lets us separate dynamics from adaptation
 
 ### Fast dynamics (state update):
 
-$$
-\frac{d\rho}{dt}
-=
--i[H(\theta(t)),\rho]
-+
-\sum_k \gamma_k
-\left(
-L_k \rho L_k^\dagger
--
-\frac{1}{2}
-\{L_k^\dagger L_k,\rho\}
-\right).
-$$
+$$\frac{d\rho}{dt} = -i[H(\theta(t)),\rho] + \sum_k \gamma_k \left(L_k \rho L_k^\dagger-\frac{1}{2}\{L_k^\dagger L_k,\rho\}\right).$$
 
 ### Slow dynamics (plasticity update):
 $$
@@ -71,7 +59,7 @@ This means a compact “state-of-the-system” object that can represent uncerta
 
 * ${X,Y}=XY+YX$: the anti-commutator.
 
-  This is a symmetrized product used to keep the update mathematically well-behaved.
+  This is a symmetrized product used to keep the update mathematically well-behaved. It means we combine $𝑋$ and $𝑌$ in a balanced way that does not depend on their order, which helps the equations stay stable and physically consistent.
 
 * $\theta$: slow parameters controlling network structure or effective couplings (weights, gains, contextual biases, etc.).
 
