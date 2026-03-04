@@ -23,13 +23,8 @@ Treating the network as slowly varying lets us separate dynamics from adaptation
 $$\frac{d\rho}{dt} = -i[H(\theta(t)),\rho] + \sum_k \gamma_k \left(L_k \rho L_k^\dagger-\frac{1}{2}\{L_k^\dagger L_k,\rho\}\right).$$
 
 ### Slow dynamics (plasticity update):
-$$
-\frac{d\theta}{dt}
-=
-\varepsilon\, G(\rho,\theta,u(t)),
-\qquad
-0<\varepsilon\ll 1.
-$$
+
+$$\frac{d\theta}{dt}=\varepsilon\, G(\rho,\theta,u(t)),\qquad 0<\varepsilon\ll 1.$$
 
 ### Meaning
 
