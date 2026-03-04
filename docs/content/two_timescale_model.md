@@ -69,7 +69,7 @@ This means a compact “state-of-the-system” object that can represent uncerta
 
   This determines how strong each kind of noise is.
 
-* ${\cdot,\cdot}$: the anti-commutator, ${X,Y}=XY+YX$.
+* ${X,Y}=XY+YX$: the anti-commutator.
 
   This is a symmetrized product used to keep the update mathematically well-behaved.
 
@@ -81,7 +81,7 @@ This means a compact “state-of-the-system” object that can represent uncerta
   
   This is what we show to the system and when (training, prompts, stimulation, context).
 
-* $G(\rho,\theta,u(t))$: a plasticity rule that updates (\theta) based on current state, context, and feedback (could be Hebbian-like, error-driven, regularized, etc.).
+* $G(\rho,\theta,u(t))$: a plasticity rule that updates $\theta$ based on current state, context, and feedback (could be Hebbian-like, error-driven, regularized, etc.).
   
   This is the learning rule that says “given what just happened, how should the network change?”
 
