@@ -128,6 +128,22 @@
       It should not be tuned to only one dataset or one experimental design.</p>
     </li>
     </ul>
+    <h3 id="a-minimal-spectral-unlearning-term">A minimal spectral unlearning term</h3>
+    <p>Let $W(t)\in\mathbb{R}^{n\times n}$ be symmetric with eigendecomposition $W=V\Lambda V^\top$ where $\Lambda=\mathrm{diag}(\lambda_1\ \lambda_2\ \dots\ \lambda_n)$ and $v_1$ is the dominant mode. A simple unlearning update that weakens that mode is</p>
+    <p>$$
+    \frac{dW}{dt}=-\eta v_1 v_1^\top
+    \qquad \eta&gt;0
+    $$</p>
+    <p>Using a first order Rayleigh quotient approximation</p>
+    <p>$$
+    \frac{d\lambda_1}{dt}=v_1^\top\frac{dW}{dt}v_1=-\eta
+    $$</p>
+    <p>and for other modes</p>
+    <p>$$
+    \frac{d\lambda_k}{dt}\approx 0
+    \qquad k\ne 1
+    $$</p>
+    <p>So the spectral gap $\Delta=\lambda_1-\lambda_2$ decreases during unlearning.</p>
     <p>Citation:
     Goolam Hossen Y H, Gassab L, Craddock T J A. Graph Hamiltonian Model of Plasticity: Two-timescale Quantum-like Unlearning. Manuscript in preparation, 2026.</p>
   </article>
