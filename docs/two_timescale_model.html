@@ -49,53 +49,53 @@
     $$</p>
     <h3 id="meaning">Meaning</h3>
     <ul>
-    <li>($$\rho$$): the system state (a density matrix) over network modes.</li>
+    <li>($\rho$): the system state (a density matrix) over network modes.</li>
     </ul>
     <p>This means a compact “state-of-the-system” object that can represent uncertainty and mixed patterns, not just one activity pattern.</p>
     <ul>
     <li>
-    <p>($$t$$): time.</p>
+    <p>($t$): time.</p>
     </li>
     <li>
-    <p>($$H(\theta(t))$$): a graph Hamiltonian parameterized by ($$\theta$$), built from the network (e.g., adjacency (A), Laplacian (L), or weighted couplings).</p>
+    <p>($H(\theta(t))$): a graph Hamiltonian parameterized by ($\theta$), built from the network (e.g., adjacency ($A$), Laplacian ($L$), or weighted couplings).</p>
     </li>
     </ul>
-    <p>This is a matrix that encodes how activity can spread through the network, with knobs (\theta) that can slowly change as learning happens.</p>
+    <p>This is a matrix that encodes how activity can spread through the network, with knobs ($\theta$) that can slowly change as learning happens.</p>
     <ul>
-    <li>($$[H,\rho]=H\rho-\rho H$$): the commutator generating reversible, order-sensitive evolution.</li>
+    <li>($[H,\rho]=H\rho-\rho H$): the commutator generating reversible, order-sensitive evolution.</li>
     </ul>
     <p>This is the part that makes “sequence matters” possible in the model.</p>
     <ul>
     <li>
-    <p>($$L_k$$): Lindblad (noise/dissipation) operators;</p>
+    <p>($L_k$): Lindblad (noise/dissipation) operators;</p>
     </li>
     <li>
-    <p>($$L_k^\dagger$$) is the conjugate transpose.</p>
+    <p>($L_k^\dagger$) is the conjugate transpose.</p>
     </li>
     </ul>
     <p>These are mathematical tools that represent randomness, leakage, and imperfect memory.</p>
     <ul>
-    <li>($$\gamma_k\ge 0$$): rates (strengths) of each noise/dissipation channel.</li>
+    <li>($\gamma_k\ge 0$): rates (strengths) of each noise/dissipation channel.</li>
     </ul>
     <p>This determines how strong each kind of noise is.</p>
     <ul>
-    <li>($${\cdot,\cdot}$$): the anti-commutator, ({X,Y}=XY+YX).</li>
+    <li>(${\cdot,\cdot}$): the anti-commutator, (${X,Y}=XY+YX$).</li>
     </ul>
     <p>This is a symmetrized product used to keep the update mathematically well-behaved.</p>
     <ul>
-    <li>($$\theta$$): slow parameters controlling network structure or effective couplings (weights, gains, contextual biases, etc.).</li>
+    <li>($\theta$): slow parameters controlling network structure or effective couplings (weights, gains, contextual biases, etc.).</li>
     </ul>
     <p>These are the “learning knobs” that change the network over time.</p>
     <ul>
-    <li>($$u(t)$$): external inputs, tasks, cues, or interventions.</li>
+    <li>($u(t)$): external inputs, tasks, cues, or interventions.</li>
     </ul>
     <p>This is what we show to the system and when (training, prompts, stimulation, context).</p>
     <ul>
-    <li>($$G(\rho,\theta,u(t))$$): a plasticity rule that updates (\theta) based on current state, context, and feedback (could be Hebbian-like, error-driven, regularized, etc.).</li>
+    <li>($G(\rho,\theta,u(t))$): a plasticity rule that updates (\theta) based on current state, context, and feedback (could be Hebbian-like, error-driven, regularized, etc.).</li>
     </ul>
     <p>This is the learning rule that says “given what just happened, how should the network change?”</p>
     <ul>
-    <li>($$\varepsilon\ll 1$$): a small parameter enforcing timescale separation (slow learning vs fast state evolution).</li>
+    <li>($\varepsilon\ll 1$): a small parameter enforcing timescale separation (slow learning vs fast state evolution).</li>
     </ul>
     <p>This is a dial that makes learning much slower than moment-to-moment activity.</p>
     <h2 id="graph-hamiltonian">Graph Hamiltonian</h2>
