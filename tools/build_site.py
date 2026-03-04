@@ -22,6 +22,7 @@ OUT_DIR = ROOT / "docs"
 NAV = """
 <nav class="nav">
   <a href="index.html">Home</a>
+  <a href="poster.html">Poster</a>
   <a href="poster_overview.html">Overview</a>
   <a href="poster_guide.html">Poster guide</a>
   <a href="core_question.html">Core question</a>
