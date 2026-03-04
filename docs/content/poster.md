@@ -1,3 +1,3 @@
 [Download the poster PDF](poster.pdf)
 
-![Poster preview](poster.png)
+![Poster preview](poster.jpg)
