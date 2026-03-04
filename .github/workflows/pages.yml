@@ -3,6 +3,11 @@ name: Build & Deploy Pages (and commit HTML)
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - "docs/content/**"
+      - "docs/assets/**"
+      - "tools/**"
+      - ".github/workflows/pages.yml"
   workflow_dispatch:
 
 permissions:
