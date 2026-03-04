@@ -51,7 +51,7 @@ This means a compact “state-of-the-system” object that can represent uncerta
 
 * $t$: time.
   
-* $H(\theta(t))$: a graph Hamiltonian parameterized by $\theta$, built from the network (e.g., adjacency $A$, Laplacian, $L$, or weighted couplings).
+* $H(\theta(t))$: a graph Hamiltonian parameterized by $\theta$, built from the network (e.g., adjacency, $A$, Laplacian, $L$, or weighted couplings).
   
   This is a matrix that encodes how activity can spread through the network, with knobs, $\theta$, that can slowly change as learning happens.
 
