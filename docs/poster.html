@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111111">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<title>Poster</title>
+</head>
+<body>
+<header>
+  <div class="brand">UNLEARN</div>
+  <nav class="nav">
+  <a href="index.html">Home</a>
+  <a href="poster_overview.html">Overview</a>
+  <a href="poster_guide.html">Poster guide</a>
+  <a href="core_question.html">Core question</a>
+  <a href="methods_summary.html">Methods</a>
+  <a href="two_timescale_model.html">Two timescale model</a>
+  <a href="parkinsons_wearables.html">Parkinson</a>
+  <a href="discussion_future_work.html">Discussion</a>
+  <a href="glossary.html">Glossary</a>
+  <a href="references.html">References</a>
+  <a href="further_reading.html">Further reading</a>
+</nav>
+</header>
+
+<main>
+  <article class="content">
+    <p><a href="assets/poster/poster.pdf">Download the poster PDF</a></p>
+    <p><img alt="Poster preview" src="assets/poster/poster.png"></p>
+  </article>
+</main>
+
+<footer>
+  <div class="foot">Poster companion text only</div>
+</footer>
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
+</script>
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$','$$'], ['\\[','\\]']]
+  }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>
