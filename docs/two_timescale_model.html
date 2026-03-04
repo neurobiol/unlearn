@@ -171,12 +171,14 @@
       It is the direction the system most naturally tends to follow because its strength $\lambda_1$ is largest</p>
     </li>
     <li>
-    <p>$\frac{dW}{dt}=-\eta v_1 v_1^\top$<br>
-      $\frac{dW}{dt}$ means how the coupling matrix is changing in time<br>
-      $v_1 v_1^\top$ builds a matrix that targets only the dominant pattern $v_1$<br>
+    <p>$\frac{dW}{dt}=-\eta v_1 v_1^\top$</p>
+    </li>
+    </ul>
+    <p>$\frac{dW}{dt}$ means how the coupling matrix is changing in time</p>
+    <p>$v_1 v_1^\top$ builds a matrix that targets only the dominant pattern $v_1$<br>
       The minus sign means we are decreasing that targeted part rather than increasing it<br>
       $\eta&gt;0$ is the unlearning rate which sets how fast this weakening happens</p>
-    </li>
+    <ul>
     <li>
     <p>Why $v_1 v_1^\top$ targets that mode<br>
       Multiplying a vector by its transpose creates a "directional filter"<br>
