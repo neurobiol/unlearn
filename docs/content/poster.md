@@ -1,3 +1,3 @@
-[Download the poster PDF](assets/poster.pdf)
+[Download the poster PDF](docs/assets/poster.pdf)
 
-![Poster preview](assets/poster.png)
+![Poster preview](docs/assets/poster.png)
