@@ -155,8 +155,10 @@ So the spectral gap $\Delta=\lambda_1-\lambda_2$ shrinks as unlearning proceeds.
   $v_1$ is the pattern of the strongest mode  
   It is the direction the system most naturally tends to follow because its strength $\lambda_1$ is largest
 
-* $\frac{dW}{dt}=-\eta v_1 v_1^\top$  
-  $\frac{dW}{dt}$ means how the coupling matrix is changing in time  
+* $\frac{dW}{dt}=-\eta v_1 v_1^\top$
+  
+  $\frac{dW}{dt}$ means how the coupling matrix is changing in time
+  
   $v_1 v_1^\top$ builds a matrix that targets only the dominant pattern $v_1$  
   The minus sign means we are decreasing that targeted part rather than increasing it  
   $\eta>0$ is the unlearning rate which sets how fast this weakening happens
