@@ -67,6 +67,12 @@ if ('serviceWorker' in navigator) {{
   navigator.serviceWorker.register('sw.js');
 }}
 </script>
+<script>
+window.MathJax = {
+  tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$','$$'], ['\\[','\\]']] }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </body>
 </html>
 """
@@ -142,6 +148,18 @@ def main() -> None:
             encoding="utf-8",
         )
         print(f"Wrote {out_path.relative_to(ROOT)}")
+
+    # Build docs/index.html from docs/content/index.md (if present)
+    index_md = CONTENT_DIR / "index.md"
+    if index_md.exists():
+        md_text = index_md.read_text(encoding="utf-8")
+        title = extract_title(md_text, "UNLEARN")
+        body = md_to_html(md_text)
+        (OUT_DIR / "index.html").write_text(
+            TEMPLATE.format(title=title, nav=NAV, body=body),
+            encoding="utf-8",
+        )
+        print("Wrote docs/index.html")
 
 if __name__ == "__main__":
     main()
