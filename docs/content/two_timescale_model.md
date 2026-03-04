@@ -108,7 +108,7 @@ A compelling two-timescale model should
 * generalize across datasets and protocols.
   It should not be tuned to only one dataset or one experimental design.
 
-### A minimal spectral unlearning term
+## A minimal spectral unlearning term
 
 Let $W(t)\in\mathbb{R}^{n\times n}$ be symmetric connectivity/interaction matrix with eigendecomposition $W=V\Lambda V^\top$ where $\Lambda=\mathrm{diag}(\lambda_1\ \lambda_2\ \dots\ \lambda_n)$ and $v_1$ is the dominant mode. A simple unlearning update that selectively weakens that mode is
 
