@@ -11,7 +11,7 @@ Nader K, Schafe GE, LeDoux JE. Fear memories require protein synthesis in the am
 Hardt O, Nader K, Nadel L. Decay happens: the role of active forgetting in memory. *Trends Cogn Sci*. 2013.
 [https://doi.org/10.1016/j.tics.2013.08.001](https://doi.org/10.1016/j.tics.2013.08.001)
 
-## Quantum-like modelling beyond neuroscience
+## Quantum-like modeling beyond neuroscience
 
 Pothos EM, Busemeyer JR. Can quantum probability provide a new direction for cognitive modelling? *Behav Brain Sci*. 2013.
 [https://doi.org/10.1017/S0140525X12001525](https://doi.org/10.1017/S0140525X12001525)
@@ -19,7 +19,7 @@ Pothos EM, Busemeyer JR. Can quantum probability provide a new direction for cog
 Asano M, Khrennikov A, Ohya M, Tanaka Y, Yamato I. *Quantum Adaptivity in Biology: From Genetics to Cognition*. Springer. 2015.
 [https://doi.org/10.1007/978-94-017-9615-9](https://doi.org/10.1007/978-94-017-9615-9)
 
-## Quantum walks and transport as modelling tools
+## Quantum walks and transport as modeling tools
 
 Kendon V. Decoherence in quantum walks: a review. *Math Struct Comput Sci*. 2007.
 [https://doi.org/10.1017/S0960129507006354](https://doi.org/10.1017/S0960129507006354)
