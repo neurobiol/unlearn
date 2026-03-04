@@ -25,6 +25,10 @@ jobs:
 
       - name: Install deps
         run: pip install markdown
+      - name: Debug output
+        run: |
+          ls -lah docs
+          grep -n "anti-commutator" docs/two_timescale_model.html | head
 
       - name: Build site (MD -> HTML)
         run: python tools/build_site.py
