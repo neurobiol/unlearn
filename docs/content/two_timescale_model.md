@@ -108,6 +108,30 @@ A compelling two-timescale model should
 * generalize across datasets and protocols.
   It should not be tuned to only one dataset or one experimental design.
 
+### A minimal spectral unlearning term
+
+Let $W(t)\in\mathbb{R}^{n\times n}$ be symmetric with eigendecomposition $W=V\Lambda V^\top$ where $\Lambda=\mathrm{diag}(\lambda_1\ \lambda_2\ \dots\ \lambda_n)$ and $v_1$ is the dominant mode. A simple unlearning update that weakens that mode is
+
+$$
+\frac{dW}{dt}=-\eta v_1 v_1^\top
+\qquad \eta>0
+$$
+
+Using a first order Rayleigh quotient approximation
+
+$$
+\frac{d\lambda_1}{dt}=v_1^\top\frac{dW}{dt}v_1=-\eta
+$$
+
+and for other modes
+
+$$
+\frac{d\lambda_k}{dt}\approx 0
+\qquad k\ne 1
+$$
+
+So the spectral gap $\Delta=\lambda_1-\lambda_2$ decreases during unlearning.
+
 Citation:
 Goolam Hossen Y H, Gassab L, Craddock T J A. Graph Hamiltonian Model of Plasticity: Two-timescale Quantum-like Unlearning. Manuscript in preparation, 2026.
 
