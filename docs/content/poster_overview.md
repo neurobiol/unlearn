@@ -4,19 +4,19 @@ Unlearning can be framed as structured network rewiring rather than simple delet
 
 ## Key Questions
 
-1  Can wearable-derived movement features distinguish Parkinson’s from control cohorts?
+1.  Can wearable-derived movement features distinguish Parkinson’s from control cohorts?
 
-2  Do individuals with similar movement signatures cluster together in feature space?
+2.  Do individuals with similar movement signatures cluster together in feature space?
 
 Background and analysis details:
 [Parkinson wearables note](parkinsons_wearables.md)
 
-3  Do spectral gap peaks align with transition points, and does a flattened gap correspond to relative network stability?
+3.  Do spectral gap peaks align with transition points, and does a flattened gap correspond to relative network stability?
 
 Modeling framework and gap analysis:
 [Methods summary](methods_summary.md)
 
-4  If unlearning reflects adaptive rewiring rather than erasure, can targeted interventions help steer neuroplasticity away from pathological drift?
+4.  If unlearning reflects adaptive rewiring rather than erasure, can targeted interventions help steer neuroplasticity away from pathological drift?
 
 Conceptual implications and proposed validation steps:
 [Discussion and next steps](discussion_future_work.md)
