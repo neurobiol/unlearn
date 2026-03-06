@@ -71,4 +71,4 @@ Trivedi DK, Sinclair E, Xu Y, et al. Discovery of volatile biomarkers of Parkins
 
 Gassab L. PhD thesis. August 2024.
 
-Goolam Hossen Y H, Gassab L, Craddock T J A. UNLEARN is plasticity quantum. Poster. 2026.
+Goolam Hossen Y H, Gassab L, Craddock T J A. UNLEARN: is plasticity quantum? Poster. 2026.
