@@ -21,7 +21,7 @@ Order effects are experimentally testable and can be used to compare model famil
 
 Quantum-like models are useful when we want a compact mathematical language for contextual updates and order dependence.
 
-The formal move is to represent state with objects that support non commutative updates, so the composition of updates depends on order.
+The formal move is to represent state with objects that support non-commutative updates, so the composition of updates depends on order.
 
 This is a modelling choice, not a claim that the substrate is quantum coherent at macroscopic scales.
 
