@@ -15,7 +15,7 @@ A typical pipeline is
 
 The embedding axes themselves are not physically meaningful. Neighborhood structure is the point.
 
-See a short Parkinson wearables note [here](parkinsons_wearables.md).
+See the Parkinson wearables note [here](parkinsons_wearables.md).
 
 ## Similarity network panel
 
