@@ -9,7 +9,7 @@ If plasticity includes unlearning, and unlearning is rewiring rather than deleti
 Unlearning here means reduced expression of a previously learned mapping, coupled with the emergence of a new mapping.  
 It can arise from competition, inhibition, pruning, or context dependent retrieval.
 
-A short glossary is in docs/content/glossary.md
+See [glossary](glossary.md).
 
 ## What is meant by order effects
 
