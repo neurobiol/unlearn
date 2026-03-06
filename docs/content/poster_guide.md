@@ -1,7 +1,7 @@
 # How to read the visuals
 
 This poster is designed to be read at two levels: as data and as perception.
-The scientific content stands on its own, but the layout deliberately invites reflection on how context shapes interpretation.
+The scientific content stands on its own, while the layout deliberately invites reflection on how context can shape interpretation.
 
 ## The three panels and what they mean
 
@@ -11,11 +11,9 @@ One panel presents a time-dependent spectral gap summary. Pronounced peaks sugge
 
 One panel displays a dense similarity network as a visual cue for global structure, connectivity, and potential rewiring across conditions.
 
-Some viewers do not see a face at first. After being told there is a face, many suddenly perceive it. This shift illustrates how prior information can reorganize interpretation without altering the underlying stimulus.
 
-Others report seeing a moon in the sky, a mountain, or phytoplankton in the ocean. These alternative readings are valid. The scientific claims do not depend on any single artistic perception. The meaning lies in the quantitative questions above, not in the metaphor.
 
-## The protocol line under the gap plot
+## The protocol under the gap plot
 
 - Past exposure and initial learning
 
@@ -37,4 +35,14 @@ Details on interpreting the spectral gap and its relation to transitions are pro
 It is difficult to study an interface using the interface itself: the brain.
 
 Gassab L. PhD thesis. August 2024.
+
+## Artistic Illusion or Brain Learning
+
+### Did you see a face? 
+Some viewers do not see a face at first. After being told there is a face, many suddenly perceive it. This shift illustrates how prior information can reorganize interpretation without altering the underlying stimulus.
+
+### What did you see?
+Others report seeing a moon in the sky, a mountain, or phytoplankton in the ocean. These alternative readings are valid. 
+
+*Caution:* The scientific claims do not depend on any single artistic perception. The meaning lies in the quantitative questions above, not in the metaphor.
 
