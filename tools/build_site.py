@@ -60,7 +60,7 @@ TEMPLATE = """<!doctype html>
 </main>
 
 <footer>
-  <div class="foot">Poster companion text only</div>
+  <div class="foot">Goolam Hossen Y H, Gassab L, Craddock T J A. UNLEARN: is plasticity quantum? Poster companion text. 2026.</div>
 </footer>
 
 <script>
