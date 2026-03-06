@@ -31,33 +31,39 @@
 <main>
   <article class="content">
     <h1 id="methods-summary">Methods summary</h1>
-    <p>This section explains how to read the poster plots.</p>
+    <p>This section explains the technical details behind the poster.</p>
     <h2 id="wearable-embedding-and-clustering">Wearable embedding and clustering</h2>
     <p>A typical pipeline is</p>
-    <p>1  segment raw sensor streams into windows<br>
-    2  extract features per window<br>
-    3  build a representation that supports similarity comparisons<br>
-    4  embed into two dimensions for visual inspection<br>
-    5  quantify separation and clustering with held out evaluation</p>
+    <ol>
+    <li>segment raw sensor streams into windows  </li>
+    <li>extract features per window  </li>
+    <li>build a representation that supports similarity comparisons  </li>
+    <li>embed into two dimensions for visual inspection  </li>
+    <li>quantify separation and clustering with held out evaluation</li>
+    </ol>
     <p>The embedding axes themselves are not physically meaningful. Neighbourhood structure is the point.</p>
-    <p>A short Parkinson wearables note is in docs/content/parkinsons_wearables.md</p>
+    <p>See a short Parkinson wearables note <a href="parkinsons_wearables.html">here</a>.</p>
     <h2 id="similarity-network-panel">Similarity network panel</h2>
     <p>The dense network panel acts as a visual reminder that a system can be represented by relationships among states, features, or motifs.</p>
     <p>Similarity can be defined by correlation, cosine similarity, mutual information, distance metrics, or graph kernels. Different choices change what structure becomes visible.</p>
     <h2 id="gap-panel-and-interpretation">Gap panel and interpretation</h2>
     <p>The poster states</p>
-    <p>gap peaks signal transitions<br>
-    a flat gap signals stability</p>
+    <ul>
+    <li>gap peaks signal transitions  </li>
+    <li>a flat gap signals stability</li>
+    </ul>
     <p>This is a high level spectral interpretation.</p>
     <p>A gap here means a difference between two spectral summary curves, labelled on the poster as gmax and gmin.</p>
     <p>If gmax rises while gmin stays near baseline, the gap widens and forms a peak. Peaks often align with switches between stages and can indicate a regime shift.</p>
     <p>If both curves become approximately stationary, the gap becomes flat and suggests a stable regime.</p>
     <h2 id="the-staged-protocol">The staged protocol</h2>
-    <p>Past exposure and initial learning<br>
-    Rest and consolidation<br>
-    New learning or unlearning<br>
-    Rest<br>
-    Reactivation of past learning</p>
+    <ul>
+    <li>Past exposure and initial learning  </li>
+    <li>Rest and consolidation  </li>
+    <li>New learning or unlearning  </li>
+    <li>Rest  </li>
+    <li>Reactivation of past learning</li>
+    </ul>
     <p>The key idea is to align spectral changes with stage boundaries, then test whether those alignments replicate across seeds, subjects, or datasets.</p>
     <h2 id="what-to-report-beyond-the-poster">What to report beyond the poster</h2>
     <p>To make the gap claim rigorous, a full report should specify</p>
