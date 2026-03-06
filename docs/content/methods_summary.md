@@ -52,10 +52,10 @@ The key idea is to align spectral changes with stage boundaries, then test wheth
 
 To make the gap claim rigorous, a full report should specify
 
-the operator whose spectrum is used  
-how gmax and gmin are defined  
-how uncertainty is estimated  
-how peaks are detected  
-how stage alignment is quantified
+- the operator whose spectrum is used  
+- how gmax and gmin are defined  
+- how uncertainty is estimated  
+- how peaks are detected  
+- how stage alignment is quantified
 
 These details are best placed in a methods section of the manuscript.
