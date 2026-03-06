@@ -196,7 +196,8 @@ So the spectral gap $\Delta=\lambda_1-\lambda_2$ shrinks as unlearning proceeds.
   In plain terms, unlearning reduces the advantage of the old dominant pattern.
 
 
+---
 
-Citation:
+## Citation
 Goolam Hossen Y H, Gassab L, Craddock T J A. Graph Hamiltonian Model of Plasticity: Two-timescale Quantum-like Unlearning. Manuscript in preparation, 2026.
 
