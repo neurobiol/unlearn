@@ -1,20 +1,21 @@
 # Methods summary
 
-This section explains how to read the poster plots.
+This section explains the technical details behind the poster.
+
 
 ## Wearable embedding and clustering
 
 A typical pipeline is
 
-1  segment raw sensor streams into windows  
-2  extract features per window  
-3  build a representation that supports similarity comparisons  
-4  embed into two dimensions for visual inspection  
-5  quantify separation and clustering with held out evaluation
+1.  segment raw sensor streams into windows  
+2.  extract features per window  
+3.  build a representation that supports similarity comparisons  
+4.  embed into two dimensions for visual inspection  
+5.  quantify separation and clustering with held out evaluation
 
 The embedding axes themselves are not physically meaningful. Neighbourhood structure is the point.
 
-A short Parkinson wearables note is in docs/content/parkinsons_wearables.md
+See a short Parkinson wearables note [here](parkinsons_wearables.md).
 
 ## Similarity network panel
 
@@ -26,8 +27,8 @@ Similarity can be defined by correlation, cosine similarity, mutual information,
 
 The poster states
 
-gap peaks signal transitions  
-a flat gap signals stability
+- gap peaks signal transitions  
+- a flat gap signals stability
 
 This is a high level spectral interpretation.
 
@@ -39,11 +40,11 @@ If both curves become approximately stationary, the gap becomes flat and suggest
 
 ## The staged protocol
 
-Past exposure and initial learning  
-Rest and consolidation  
-New learning or unlearning  
-Rest  
-Reactivation of past learning
+- Past exposure and initial learning  
+- Rest and consolidation  
+- New learning or unlearning  
+- Rest  
+- Reactivation of past learning
 
 The key idea is to align spectral changes with stage boundaries, then test whether those alignments replicate across seeds, subjects, or datasets.
 
