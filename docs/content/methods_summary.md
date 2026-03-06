@@ -13,7 +13,7 @@ A typical pipeline is
 4.  embed into two dimensions for visual inspection  
 5.  quantify separation and clustering with held out evaluation
 
-The embedding axes themselves are not physically meaningful. Neighbourhood structure is the point.
+The embedding axes themselves are not physically meaningful. Neighborhood structure is the point.
 
 See a short Parkinson wearables note [here](parkinsons_wearables.md).
 
