@@ -59,8 +59,8 @@ Lipsmeier F, Taylor KI, et al. Evaluation of smartphone based testing to generat
 Gottesman B, Hodes A, Howell P, et al. Fox Insight: at 5 years, a global online study of Parkinson’s disease. *Sci Data*. 2024.
 [https://doi.org/10.1038/s41597-024-03407-9](https://doi.org/10.1038/s41597-024-03407-9)
 
-Taylor KI, et al. Exploratory digital outcome measures of motor sign and symptom variability in Parkinson’s disease. 2025.
-[https://www.ncbi.nlm.nih.gov/pmc/](https://www.ncbi.nlm.nih.gov/pmc/)
+Taylor KI, et al. Exploratory digital outcome measures of motor sign progression in Parkinson’s disease patients treated with prasinezumab. 2025.
+[https://doi.org/10.1038/s41746-025-01572-8](https://doi.org/10.1038/s41746-025-01572-8)
 
 ## Olfaction and sebum related biomarkers
 
