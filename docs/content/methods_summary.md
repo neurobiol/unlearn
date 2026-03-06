@@ -1,6 +1,6 @@
 # Methods summary
 
-This repository does not include figures. It explains how to read the poster plots at the level needed for a poster companion.
+This section explains how to read the poster plots.
 
 ## Wearable embedding and clustering
 
