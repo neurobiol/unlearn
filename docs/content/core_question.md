@@ -39,7 +39,7 @@ The goal is empirical: predict transitions, stability windows, and measurable be
 
 A quantum-like model is useful if it improves prediction under controlled stress tests such as
 
-- Perturbation  
+- perturbation  
 - order manipulation  
 - noise injection  
 - missing data  
