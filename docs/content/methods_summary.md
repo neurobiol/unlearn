@@ -48,9 +48,9 @@ If both curves become approximately stationary, the gap becomes flat and suggest
 
 The key idea is to align spectral changes with stage boundaries, then test whether those alignments replicate across seeds, subjects, or datasets.
 
-## What to report beyond the poster
+## Beyond the poster
 
-To make the gap claim rigorous, a full report should specify
+To make the gap claim rigorous, a full report would specify
 
 - the operator whose spectrum is used  
 - how gmax and gmin are defined  
@@ -58,4 +58,4 @@ To make the gap claim rigorous, a full report should specify
 - how peaks are detected  
 - how stage alignment is quantified
 
-These details are best placed in a methods section of the manuscript.
+These details will be made available in the methods section of the upcoming manuscript.
