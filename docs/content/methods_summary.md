@@ -32,7 +32,7 @@ The poster states
 
 This is a high level spectral interpretation.
 
-A gap here means a difference between two spectral summary curves, labelled on the poster as gmax and gmin.
+A gap here means a difference between two spectral summary curves, labelled in the original figure as gmax (blue) and gmin (orange).
 
 If gmax rises while gmin stays near baseline, the gap widens and forms a peak. Peaks often align with switches between stages and can indicate a regime shift.
 
