@@ -33,7 +33,7 @@ A useful comparison is between
 2.  Quantum-like open system updates such as density matrix evolution under completely positive maps  
 3.  Hybrid families that interpolate between these regimes
 
-The goal is empirical: predict transitions, stability windows, and measurable behavioural outcomes.
+The goal is empirical: predict transitions, stability windows, and measurable behavioral outcomes.
 
 ## What counts as success?
 
