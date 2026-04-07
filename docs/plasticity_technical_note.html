@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111111">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<title>Plasticity - The Technicality</title>
+</head>
+<body>
+<header>
+  <div class="brand">UNLEARN</div>
+  <nav class="nav">
+  <a href="index.html">Home</a>
+  <a href="poster.html">Poster</a>
+  <a href="poster_overview.html">Overview</a>
+  <a href="poster_guide.html">Poster guide</a>
+  <a href="core_question.html">Core question</a>
+  <a href="methods_summary.html">Methods</a>
+  <a href="two_timescale_model.html">Two-timescale model</a>
+  <a href="parkinsons_wearables.html">Parkinson</a>
+  <a href="discussion_future_work.html">Discussion</a>
+  <a href="glossary.html">Glossary</a>
+  <a href="references.html">References</a>
+  <a href="further_reading.html">Further reading</a>
+</nav>
+</header>
+
+<main>
+  <article class="content">
+    <h1 id="plasticity-the-technicality">Plasticity - The Technicality</h1>
+    <h2 id="scope">Scope</h2>
+    <p>This page gives the mathematical spine of our new work.</p>
+    <h2 id="minimal-state-update-view">Minimal state-update view</h2>
+    <p>Let (\rho_t) denote the system state at step (t). Let (\theta_t) denote slower plasticity parameters, and let (u_t) and (h_t) denote current input and history.</p>
+    <p>A compact open-system update is</p>
+    <p>[
+    \rho_{t+1}=\sum_k K_k(\theta_t,u_t,h_t)\,\rho_t\,K_k^\dagger(\theta_t,u_t,h_t),
+    ]</p>
+    <p>with the usual normalization condition chosen according to the exact modeling setup.</p>
+    <p>The point is not quantum mystique. The point is that this form makes it natural to encode:</p>
+    <ul>
+    <li>noisy updates,</li>
+    <li>context dependence,</li>
+    <li>non-commuting order effects,</li>
+    <li>and history-sensitive transition bias.</li>
+    </ul>
+    <h2 id="slow-plasticity-update">Slow plasticity update</h2>
+    <p>The slower rule can be written schematically as</p>
+    <p>[
+    \theta_{t+1}=\theta_t+\eta\,G(\rho_t,\theta_t,u_t,h_t),
+    ]</p>
+    <p>where (G) is a plasticity rule and (\eta) is a slow learning rate.</p>
+    <p>This separates:</p>
+    <ul>
+    <li><strong>fast state evolution</strong>, from</li>
+    <li><strong>slower rewiring / retuning</strong>.</li>
+    </ul>
+    <p>That separation is already aligned with the existing repository note on the two-timescale picture.</p>
+    <h2 id="multilayer-interpretation">Multilayer interpretation</h2>
+    <p>A useful decomposition is:</p>
+    <ul>
+    <li><strong>structural layer</strong>: which edges or channels are available;</li>
+    <li><strong>functional layer</strong>: which flows are active now;</li>
+    <li><strong>modulatory layer</strong>: which contextual variables bias the update.</li>
+    </ul>
+    <p>The layers are not independent. They are coupled, but they play different roles.</p>
+    <h2 id="path-dependence">Path dependence</h2>
+    <p>In this framework, plasticity is not just a function of how often an edge was used.</p>
+    <p>It can depend on the <strong>sequence</strong> of uses. That makes order itself a dynamical object.</p>
+    <p>Examples:</p>
+    <ul>
+    <li>A → B → D may strengthen a path that B → A → D would not.</li>
+    <li>Repeated immediate revisits can be penalized.</li>
+    <li>Previously visited motifs can change the next transition probabilities.</li>
+    </ul>
+    <h2 id="non-backtracking-and-self-avoidance">Non-backtracking and self-avoidance</h2>
+    <p>Two simple trajectory constraints are especially useful as first probes:</p>
+    <h3 id="non-backtracking">Non-backtracking</h3>
+    <p>The process is discouraged or prevented from immediately returning to the node it just left.</p>
+    <h3 id="self-avoidance">Self-avoidance</h3>
+    <p>The process is discouraged or prevented from revisiting recently occupied states or motifs.</p>
+    <p>These are not claims about literal neural trajectories. They are testable computational constraints that can stand in for adaptation, repetition suppression, or exploration pressure.</p>
+    <h2 id="what-can-be-measured">What can be measured</h2>
+    <p>Natural outputs include:</p>
+    <ul>
+    <li>transition asymmetry,</li>
+    <li>path dependence scores,</li>
+    <li>revisit and backtrack rates,</li>
+    <li>spectral summaries,</li>
+    <li>hysteresis under repeated cues,</li>
+    <li>motif occupancy changes across experience order.</li>
+    </ul>
+    <p>See also:
+    - <a href="multilayer_graph_state_models.html">Multilayer graph-state models</a></p>
+  </article>
+</main>
+
+<footer>
+  <div class="foot">Goolam Hossen Y H, Gassab L, Craddock T J A. UNLEARN: is plasticity quantum? Poster companion text. 2026.</div>
+</footer>
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
+</script>
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$','$$'], ['\\[','\\]']]
+  }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>
