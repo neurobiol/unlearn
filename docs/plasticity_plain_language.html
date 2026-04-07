@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111111">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<title>What is Plasticity?</title>
+</head>
+<body>
+<header>
+  <div class="brand">UNLEARN</div>
+  <nav class="nav">
+  <a href="index.html">Home</a>
+  <a href="poster.html">Poster</a>
+  <a href="poster_overview.html">Overview</a>
+  <a href="poster_guide.html">Poster guide</a>
+  <a href="core_question.html">Core question</a>
+  <a href="methods_summary.html">Methods</a>
+  <a href="two_timescale_model.html">Two-timescale model</a>
+  <a href="parkinsons_wearables.html">Parkinson</a>
+  <a href="discussion_future_work.html">Discussion</a>
+  <a href="glossary.html">Glossary</a>
+  <a href="references.html">References</a>
+  <a href="further_reading.html">Further reading</a>
+</nav>
+</header>
+
+<main>
+  <article class="content">
+    <h1 id="what-is-plasticity">What is Plasticity?</h1>
+    <h2 id="the-short-version">The short version</h2>
+    <p>The main idea is that plasticity may be better understood as <strong>history-shaped routing</strong> than as simple strengthening or weakening of isolated connections.</p>
+    <p>A network does not only store <strong>what</strong> happened. It can also be changed by <strong>the order in which things happened</strong>.</p>
+    <h2 id="why-this-matters">Why this matters</h2>
+    <p>If two systems see the same events but in different orders, they may not end in the same state.</p>
+    <p>That matters for:</p>
+    <ul>
+    <li>adaptation,</li>
+    <li>repetition suppression,</li>
+    <li>rehabilitation,</li>
+    <li>context-dependent learning,</li>
+    <li>and possibly the transition from compensation to dysfunction in disease.</li>
+    </ul>
+    <h2 id="a-useful-picture">A useful picture</h2>
+    <p>Think of the system as moving through a map of possible states.</p>
+    <ul>
+    <li>One layer says which routes physically exist.</li>
+    <li>Another layer says which routes are currently active.</li>
+    <li>A third layer says what context or modulation is biasing the motion.</li>
+    </ul>
+    <p>Plasticity then means the map itself slowly changes as the path unfolds.</p>
+    <h2 id="what-is-new-in-this-update">What is new in this update</h2>
+    <p>This update pushes beyond a static graph picture in three ways:</p>
+    <ol>
+    <li>It treats <strong>structure, function, and modulation</strong> as linked but distinct layers.</li>
+    <li>It treats plasticity as <strong>irreversible and path dependent</strong>.</li>
+    <li>It uses simple history constraints, such as <strong>non-backtracking</strong> or <strong>self-avoidance</strong>, as concrete ways to express adaptation and repetition suppression.</li>
+    </ol>
+    <h2 id="what-does-quantum-like-mean">What does "quantum-like" mean?</h2>
+    <p>Quantum-like does <strong>not</strong> mean “the brain is literally a quantum computer”.</p>
+    <p>It means we want a compact way to describe situations where:</p>
+    <ul>
+    <li>context matters,</li>
+    <li>order matters,</li>
+    <li>and updates do not commute.</li>
+    </ul>
+    <p>In ordinary language: doing A then B may not be the same as doing B then A.</p>
+    <h2 id="a-summary-of-our-current-work">A summary of our current work</h2>
+    <ul>
+    <li>Weak structure alone does not explain everything;</li>
+    <li>Adaptive plasticity matters more than a weak structural floor by itself;</li>
+    <li>Model families should be compared by multiple summaries together, not by one recall number alone.</li>
+    </ul>
+    <h2 id="what-are-we-looking-for">What are we looking for?</h2>
+    <p>Our framework suggests looking for signatures such as:</p>
+    <ul>
+    <li>temporal asymmetry in transition statistics,</li>
+    <li>hysteresis under repeated stimulation,</li>
+    <li>reduction of immediate revisits,</li>
+    <li>motif-level changes after experience,</li>
+    <li>and changes that depend on experience order rather than just event counts.</li>
+    </ul>
+    <p>See also:
+    - <a href="multilayer_graph_state_models.html">Multilayer graph-state models</a>
+    - <a href="self_avoidance_smoke_test.html">Self-avoidance</a></p>
+  </article>
+</main>
+
+<footer>
+  <div class="foot">Goolam Hossen Y H, Gassab L, Craddock T J A. UNLEARN: is plasticity quantum? Poster companion text. 2026.</div>
+</footer>
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
+</script>
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$','$$'], ['\\[','\\]']]
+  }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>
