@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111111">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<title>Self-avoidance</title>
+</head>
+<body>
+<header>
+  <div class="brand">UNLEARN</div>
+  <nav class="nav">
+  <a href="index.html">Home</a>
+  <a href="poster.html">Poster</a>
+  <a href="poster_overview.html">Overview</a>
+  <a href="poster_guide.html">Poster guide</a>
+  <a href="core_question.html">Core question</a>
+  <a href="methods_summary.html">Methods</a>
+  <a href="two_timescale_model.html">Two-timescale model</a>
+  <a href="parkinsons_wearables.html">Parkinson</a>
+  <a href="discussion_future_work.html">Discussion</a>
+  <a href="glossary.html">Glossary</a>
+  <a href="references.html">References</a>
+  <a href="further_reading.html">Further reading</a>
+</nav>
+</header>
+
+<main>
+  <article class="content">
+    <h1 id="self-avoidance">Self-avoidance</h1>
+    <p>At this stage, our work is a <strong>toy demonstration</strong>, not a biological claim and not a final result.</p>
+    <p>Its purpose is to show that simple history constraints already produce measurable differences in trajectory summaries.</p>
+    <h2 id="setup">Setup</h2>
+    <ul>
+    <li>Graph: 5×5 toy grid</li>
+    <li>Trajectory length: 60 steps</li>
+    <li>Runs per condition: 300</li>
+    <li>Conditions:</li>
+    <li>unconstrained walk,</li>
+    <li>non-backtracking walk,</li>
+    <li>self-avoiding walk with simple restart logic when stuck</li>
+    </ul>
+    <p>The metric summaries reuse the provided transition-summary logic where appropriate, and add simple revisit / coverage summaries.</p>
+    <h2 id="what-changes-qualitatively">What changes qualitatively</h2>
+    <p>Relative to the unconstrained walk:</p>
+    <ul>
+    <li><strong>backtrack rate</strong> drops strongly under non-backtracking and self-avoidance;</li>
+    <li><strong>coverage</strong> increases, meaning more unique nodes are visited;</li>
+    <li><strong>trajectory statistics</strong> shift in a direction consistent with history-sensitive routing.</li>
+    </ul>
+    <h2 id="why-this-matters">Why this matters</h2>
+    <p>Even before fitting real neural data, our toy runs show that path-history rules are not just philosophical decoration. They leave quantitative fingerprints.</p>
+    <p>That makes them useful as first candidate mechanisms for:</p>
+    <ul>
+    <li>repetition suppression,</li>
+    <li>adaptive exploration,</li>
+    <li>anti-cycling behavior,</li>
+    <li>and order-sensitive plasticity.</li>
+    </ul>
+    <h2 id="figure">Figure</h2>
+    <p><img alt="Self-avoidance smoke test" src="../assets/self_avoidance_smoketest.png"></p>
+  </article>
+</main>
+
+<footer>
+  <div class="foot">Goolam Hossen Y H, Gassab L, Craddock T J A. UNLEARN: is plasticity quantum? Poster companion text. 2026.</div>
+</footer>
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
+</script>
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$','$$'], ['\\[','\\]']]
+  }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>
