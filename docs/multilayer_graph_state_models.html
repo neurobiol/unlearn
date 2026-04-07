@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111111">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<title>Multilayer graph-state models of plasticity and adaptation</title>
+</head>
+<body>
+<header>
+  <div class="brand">UNLEARN</div>
+  <nav class="nav">
+  <a href="index.html">Home</a>
+  <a href="poster.html">Poster</a>
+  <a href="poster_overview.html">Overview</a>
+  <a href="poster_guide.html">Poster guide</a>
+  <a href="core_question.html">Core question</a>
+  <a href="methods_summary.html">Methods</a>
+  <a href="two_timescale_model.html">Two-timescale model</a>
+  <a href="parkinsons_wearables.html">Parkinson</a>
+  <a href="discussion_future_work.html">Discussion</a>
+  <a href="glossary.html">Glossary</a>
+  <a href="references.html">References</a>
+  <a href="further_reading.html">Further reading</a>
+</nav>
+</header>
+
+<main>
+  <article class="content">
+    <h1 id="multilayer-graph-state-models-of-plasticity-and-adaptation">Multilayer graph-state models of plasticity and adaptation</h1>
+    <h2 id="core-hypothesis">Core hypothesis</h2>
+    <p>Plasticity can be represented as an <strong>irreversible, path-dependent update rule on a graph state</strong>.</p>
+    <p>That means future transitions depend not only on how often a route was used, but also on the order in which prior transitions occurred.</p>
+    <h2 id="three-linked-layers">Three linked layers</h2>
+    <h3 id="1-structural-connectivity">1. Structural connectivity</h3>
+    <p>The edges that are available in principle.</p>
+    <h3 id="2-functional-coupling">2. Functional coupling</h3>
+    <p>The routes that are currently carrying flow or occupancy.</p>
+    <h3 id="3-modulatory-context">3. Modulatory context</h3>
+    <p>Task, cue, gain, or environmental bias that can reshape transition choice.</p>
+    <h2 id="why">Why</h2>
+    <p>A single graph often mixes together several very different things:</p>
+    <ul>
+    <li>anatomy,</li>
+    <li>momentary activity,</li>
+    <li>and context.</li>
+    </ul>
+    <p>A multilayer representation lets those pieces be separated without pretending they are independent.</p>
+    <h2 id="repetition-suppression-and-adaptation">Repetition suppression and adaptation</h2>
+    <p>In this picture, adaptation can be implemented as a trajectory constraint.</p>
+    <p>Two simple examples are:</p>
+    <ul>
+    <li><strong>non-backtracking</strong>: reduce immediate reversals;</li>
+    <li><strong>self-avoidance</strong>: reduce rapid revisits and short cycles.</li>
+    </ul>
+    <p>These constraints are computationally attractive because they produce directly measurable changes in trajectory statistics.</p>
+    <h2 id="what-signatures-would-support-the-model">What signatures would support the model</h2>
+    <ul>
+    <li>temporal asymmetry in transition counts;</li>
+    <li>hysteresis when the same stimulation is repeated in a different sequence;</li>
+    <li>motif-level changes that depend on order of exposure;</li>
+    <li>reduction of short loops or immediate revisits after learning.</li>
+    </ul>
+    <h2 id="caution">Caution</h2>
+    <p>This is not claiming that every biological process is literally quantum.</p>
+    <p>It is using a quantum-inspired state-update language because it naturally handles:</p>
+    <ul>
+    <li>context,</li>
+    <li>order sensitivity,</li>
+    <li>uncertainty,</li>
+    <li>and open-system noise.</li>
+    </ul>
+    <p>This page is an extension of:
+    - <a href="core_question.html">Core question and claims</a>
+    - <a href="two_timescale_model.html">Two-timescale model note</a>
+    - <a href="discussion_future_work.html">Discussion and next steps</a></p>
+  </article>
+</main>
+
+<footer>
+  <div class="foot">Goolam Hossen Y H, Gassab L, Craddock T J A. UNLEARN: is plasticity quantum? Poster companion text. 2026.</div>
+</footer>
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
+</script>
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$','$$'], ['\\[','\\]']]
+  }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>
