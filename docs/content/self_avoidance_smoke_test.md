@@ -35,8 +35,6 @@ That makes them useful as first candidate mechanisms for:
 - anti-cycling behavior,
 - and order-sensitive plasticity.
 
-## Figure
-
-![Self-avoidance smoke test](../assets/self_avoidance_smoketest.png)
+![Self-avoidance smoke test](assets/self_avoidance_smoketest.png)
 
 
