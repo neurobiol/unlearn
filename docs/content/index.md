@@ -12,15 +12,15 @@ A lightweight PWA companion to the poster.
 
 # Part 2 (PATH 2026)
 
-[PATH symposium update 2026](docs/content/poster_symposium_update_2026.md)  
+[PATH symposium update 2026](poster_symposium_update_2026.md)  
 
-[Plasticity in plain language](docs/content/plasticity_plain_language.md)  
+[Plasticity in plain language](plasticity_plain_language.md)  
 
-[Technical plasticity note](docs/content/plasticity_technical_note.md)  
+[Technical plasticity note](plasticity_technical_note.md)  
 
-[Multilayer graph-state models](docs/content/multilayer_graph_state_models.md)  
+[Multilayer graph-state models](multilayer_graph_state_models.md)  
 
-[Self-avoidance](docs/content/self_avoidance_smoke_test.md)  
+[Self-avoidance](self_avoidance_smoke_test.md)  
 
 
 
