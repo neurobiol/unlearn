@@ -14,6 +14,10 @@ A lightweight PWA companion to the poster.
 
 [PATH symposium update 2026](poster_symposium_update_2026.md)  
 
+[The Mime Video](https://youtu.be/5onVFn8MU3A?si=JBlfHkXTYC9MruvM)
+
+[Mime Over Mind](https://www.parkinson.ca/how-mime-over-mind-is-transforming-lives-through-creativity/)
+
 [Plasticity in plain language](plasticity_plain_language.md)  
 
 [Technical plasticity note](plasticity_technical_note.md)  
