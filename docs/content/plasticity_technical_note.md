@@ -6,13 +6,11 @@ This page gives the mathematical spine of our new work.
 
 ## Minimal state-update view
 
-Let \(\rho_t\) denote the system state at step \(t\). Let \(\theta_t\) denote slower plasticity parameters, and let \(u_t\) and \(h_t\) denote current input and history.
+Let $\(\rho_t\)$ denote the system state at step $\(t\)$. Let $\(\theta_t\)$ denote slower plasticity parameters, and let $\(u_t\)$ and $\(h_t\)$ denote current input and history.
 
 A compact open-system update is
 
-\[
-\rho_{t+1}=\sum_k K_k(\theta_t,u_t,h_t)\,\rho_t\,K_k^\dagger(\theta_t,u_t,h_t),
-\]
+$$\rho_{t+1}=\sum_k K_k(\theta_t,u_t,h_t)\,\rho_t\,K_k^\dagger(\theta_t,u_t,h_t),$$
 
 with the usual normalization condition chosen according to the exact modeling setup.
 
