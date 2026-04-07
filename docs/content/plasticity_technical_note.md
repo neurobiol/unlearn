@@ -25,11 +25,9 @@ The point is not quantum mystique. The point is that this form makes it natural 
 
 The slower rule can be written schematically as
 
-\[
-\theta_{t+1}=\theta_t+\eta\,G(\rho_t,\theta_t,u_t,h_t),
-\]
+$$\theta_{t+1}=\theta_t+\eta\,G(\rho_t,\theta_t,u_t,h_t),$$
 
-where \(G\) is a plasticity rule and \(\eta\) is a slow learning rate.
+where $\(G\)$ is a plasticity rule and $\(\eta\)$ is a slow learning rate.
 
 This separates:
 
