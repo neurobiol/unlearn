@@ -34,3 +34,7 @@ Venegas-Andraca SE. *Quantum Walks for Computer Scientists*. Morgan and Claypool
 
 Esteva A, Robicquet A, Ramsundar B, et al. A guide to deep learning in healthcare. *Nat Med*. 2019.
 [https://doi.org/10.1038/s41591-018-0316-z](https://doi.org/10.1038/s41591-018-0316-z)
+
+## Photosynthesis, is it quantum? 
+
+https://physicsworld.com/a/is-photosynthesis-quantum-ish/
