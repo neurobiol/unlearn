@@ -38,3 +38,9 @@ I am available for any further questions you may have.
 
 June 4, 2026
 
+Did you miss any of the above events and still wish to hear a glimpse of this work? Listen to the related:
+[Award-winning Flash Talk at the University of Waterloo]
+(https://youtu.be/FGmgId3ZYWs?si=Oa8PhRqvOlA_YDVG)
+
+[Email me your questions and comments](yhgoolam@uwaterloo.ca)
+
