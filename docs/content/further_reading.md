@@ -16,9 +16,9 @@ Voss MW, Vivar C, Kramer AF, van Praag H. Bridging animal and human models of ex
 
 [https://neurosciencenews.com/basal-ganglia-synapse-learning-30679/](https://neurosciencenews.com/basal-ganglia-synapse-learning-30679/)
 
-[Article in Quanta magazine on Neuroplasticity](https://www.quantamagazine.org/a-new-type-of-neuroplasticity-rewires-the-brain-after-a-single-experience-20260424/)
+Kukushkin, N.V., Carney, R.E., Tabassum, T. et al. The massed-spaced learning effect in non-neural human cells. Nat Commun 15, 9635 (2024). [https://doi.org/10.1038/s41467-024-53922-x](https://www.nature.com/articles/s41467-024-53922-x)
 
-[Academic reference](https://www.nature.com/articles/s41467-024-53922-x)
+[Related article in Quanta magazine on Neuroplasticity](https://www.quantamagazine.org/a-new-type-of-neuroplasticity-rewires-the-brain-after-a-single-experience-20260424/)
 
 ## Quantum-like modeling beyond neuroscience
 
