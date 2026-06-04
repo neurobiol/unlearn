@@ -3,7 +3,7 @@
 ## Plasticity and unlearning
 
 Goolam Hossen Y. H, Gassab L, Craddock T. J. A. A quantum-like benchmark for context-sensitive
-associative memory with adaptive plasticity, submitted to arXiv. 2026
+associative memory with adaptive plasticity, submitted to arXiv. 2026.
 
 Kolb B, Gibb R. Brain plasticity and behaviour in the developing brain. *J Can Acad Child Adolesc Psychiatry*. 2011.
 [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3222570/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3222570/)
@@ -53,8 +53,7 @@ Breuer HP, Petruccione F. *The Theory of Open Quantum Systems*. Oxford Universit
 
 ## Quantum Biology, A Roadmap
 
-[Gassab L, Adams B, Goolam Hossen Y. H, Pusuluk O, Murugan N. J, Kominis I. K, Müstecaplıoğlu Ö. E, Petruccione F, Craddock T. J. A. Quantum in Biology, Quantum for Biology, and Biology for Quantum: Mapping the Evidence and the Road Ahead, arXiv. 2026.]
-(https://arxiv.org/abs/2605.00205v2)
+[Gassab L, Adams B, Goolam Hossen Y. H, Pusuluk O, Murugan N. J, Kominis I. K, Müstecaplıoğlu Ö. E, Petruccione F, Craddock T. J. A. Quantum in Biology, Quantum for Biology, and Biology for Quantum: Mapping the Evidence and the Road Ahead, arXiv. 2026.](https://arxiv.org/abs/2605.00205v2)
 
 ## Parkinson wearables and digital biomarkers
 
