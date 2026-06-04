@@ -27,4 +27,15 @@ A lightweight PWA companion to the poster.
 [Self-avoidance](self_avoidance_smoke_test.md)  
 
 
+# Part 3 (QUEBS 2026 DAY 2)
+
+Thank you everyone who visited my poster and for your feedback and discussion.
+
+The paper behind the plasticity part of the work displayed has been posted to ArXiv and should be available for viewing once it goes through the moderators. In the meantime, you may view the PDF here and you may leave comments too:
+
+[Overleaf link for viewing and commenting only](https://www.overleaf.com/read/snzsgbmfbtrr#519041)
+
+I am available for any further questions you may have. 
+
+June 4, 2026
 
