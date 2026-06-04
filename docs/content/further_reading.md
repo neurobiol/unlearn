@@ -14,6 +14,12 @@ Hardt O, Nader K, Nadel L. Decay happens: the role of active forgetting in memor
 Voss MW, Vivar C, Kramer AF, van Praag H. Bridging animal and human models of exercise-induced brain plasticity. *Trends Cogn Sci*. 2013.
 [https://doi.org/10.1016/j.tics.2013.08.001](https://doi.org/10.1016/j.tics.2013.08.001)
 
+[https://neurosciencenews.com/basal-ganglia-synapse-learning-30679/](https://neurosciencenews.com/basal-ganglia-synapse-learning-30679/)
+
+[Article in Quanta magazine on Neuroplasticity](https://www.quantamagazine.org/a-new-type-of-neuroplasticity-rewires-the-brain-after-a-single-experience-20260424/)
+
+[Academic reference](https://www.nature.com/articles/s41467-024-53922-x)
+
 ## Quantum-like modeling beyond neuroscience
 
 Pothos EM, Busemeyer JR. Can quantum probability provide a new direction for cognitive modelling? *Behav Brain Sci*. 2013.
@@ -38,3 +44,9 @@ Esteva A, Robicquet A, Ramsundar B, et al. A guide to deep learning in healthcar
 ## Photosynthesis, is it quantum? 
 
 https://physicsworld.com/a/is-photosynthesis-quantum-ish/
+
+## More 
+
+[Machine Learning and Plasticity](https://huggingface.co/continuum-ai/experiential-plasticity-paper)
+
+
