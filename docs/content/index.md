@@ -38,13 +38,12 @@ I am available for any further questions you may have.
 
 June 4, 2026
 
-*Did you miss the Poster slots*
+*Did you miss the Poster slots?*
 
 Do you wish to hear a glimpse of this work?
 
 Listen to the related:
-[Award-winning Flash Talk at the University of Waterloo (PATH, April 2026)]
-(https://youtu.be/FGmgId3ZYWs?si=Oa8PhRqvOlA_YDVG)
+[Award-winning Flash Talk at the University of Waterloo (PATH, April 2026)](https://youtu.be/FGmgId3ZYWs?si=Oa8PhRqvOlA_YDVG)
 
 
 You can email your questions and comments:
