@@ -31,9 +31,8 @@ A lightweight PWA companion to the poster.
 
 Thank you everyone who visited my poster and for your feedback and discussion.
 
-The paper behind the plasticity part of the work displayed has been posted to ArXiv and should be available for viewing once it goes through the moderators. In the meantime, you may view the PDF here and you may leave comments too:
+The paper behind the plasticity part of the work displayed has been posted to ArXiv and should be available for viewing once it goes through the moderators. In the meantime, find me (Yashine) to request to view the PDF.
 
-[Overleaf link for viewing and commenting only](https://www.overleaf.com/read/snzsgbmfbtrr#519041)
 
 I am available for any further questions you may have. 
 
