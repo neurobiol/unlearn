@@ -53,7 +53,7 @@ Breuer HP, Petruccione F. *The Theory of Open Quantum Systems*. Oxford Universit
 
 ## Quantum Biology, A Roadmap
 
-[Gassab L, Adams B, Goolam Hossen Y. H, Pusuluk O, Murugan N. J, Kominis I. K, Müstecaplıoğlu Ö. E, Petruccione F, Craddock T. J. A. Quantum in Biology, Quantum for Biology, and Biology for Quantum: Mapping the Evidence and the Road Ahead, arXiv. 2026.](https://arxiv.org/abs/2605.00205v2)
+Gassab L, Adams B, Goolam Hossen Y. H, Pusuluk O, Murugan N. J, Kominis I. K, Müstecaplıoğlu Ö. E, Petruccione F, Craddock T. J. A. Quantum in Biology, Quantum for Biology, and Biology for Quantum: Mapping the Evidence and the Road Ahead, arXiv. 2026. [https://arxiv.org/abs/2605.00205v2](https://arxiv.org/abs/2605.00205v2)
 
 ## Parkinson wearables and digital biomarkers
 
